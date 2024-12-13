@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+}
+.box {
+    border: 3px solid #ccc; 
+    padding: 5px; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    width: 100%; 
+    max-width: 1000px; 
+    background: transparent;
+    backdrop-filter: blur(50px);
+}
+body {
+background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWdtZDllNjExMG5kZms3eDVoMWVwcWgycW0wdXFya2lleG5lbnl1MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YbS3KkZSFGUkB4XO1X/giphy.webp');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+margin: 0;
+}      
+.label1{
+    text-align: center;
+    color:white;
+}
+.label2{
+    text-align: center;
+    color: cyan;
+}
+.label3{
+    color:White;
+    margin-left: 100px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 5);
+        
+}
+.label4{
+    color: blue;
+    margin-left: 100px;
+        
+}
+.form-group1{
+    display: flex;
+    justify-content: center;
+}
+.form-group2{
+    color: white;
+}
+nav {background-color: blueviolet;
+border-radius: 10px;}
+nav a {color: blue; text-decoration: none;}
+nav a:hover {color: gray;}
+nav ul {display: table; width: 1000px; margin: auto;}
+nav li {display: table-cell; text-align: center; padding: 1em;}
+
+.navigationbutton{
+border-radius: 10px;
+background-color: white;
+border: 3px solid rgb(196, 199, 195);
+padding: 2px;
+}
+.postbox2 {
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    width: 100%; 
+    max-width: 976px; 
+    background: white;
+}
+.postbox3{
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    width: 100%; 
+    max-width: 905px; 
+    background: white;
+}
+.postbox4{
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    width: 100%; 
+    max-width: 400px; 
+    background: white;
+}
+.createbutton{
+    color: blue;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid rgb(196, 199, 195);
+    padding: 2px;
+    }
+.createbutton:hover{
+    color: gray;
+}
+.postbox5{
+    border: 2px solid #ccc; 
+    padding: 10px; 
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5); 
+    width: 100%; 
+    max-width: 850px; 
+    background: white;
+}
